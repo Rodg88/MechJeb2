@@ -213,7 +213,7 @@ namespace MuMech
 						if (actionNames[selectedGroupIndex][selectedActionIndex].CompareTo("MODULE Ascent Autopilot") == 0)
 						{
 							//Open the ascent module GUI
-							core.GetComputerModule<MechJebModuleAscentGuidance>().enabled = true;
+							core.GetComputerModule<MechJebModuleAscentMenu>().enabled = true;
 						}
 						if (actionNames[selectedGroupIndex][selectedActionIndex].CompareTo("MODULE Landing") == 0)
 						{
